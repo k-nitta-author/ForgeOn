@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtaw6lkdji055"]
+
+[ext_resource type="Script" path="res://props/Pottery.cs" id="1_u8qj1"]
+
+[node name="Pottery" type="StaticBody2D"]
+script = ExtResource("1_u8qj1")

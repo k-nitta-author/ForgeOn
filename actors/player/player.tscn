@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://5mlr31310b45"]
+
+[ext_resource type="Script" path="res://actors/player/player.cs" id="1_5o1vd"]
+
+[node name="Player" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_5o1vd")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Sprite2D")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]

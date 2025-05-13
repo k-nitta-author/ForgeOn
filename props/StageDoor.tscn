@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdu30klq77u5x"]
+
+[ext_resource type="Script" path="res://props/StageDoor.cs" id="1_rjymk"]
+
+[node name="StageDoor" type="Area2D"]
+script = ExtResource("1_rjymk")
